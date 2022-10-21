@@ -12,7 +12,7 @@ Fluent validation is a open source .Net Library for server side validation. Easy
 5. Conditional valiation
 6. Child Data validation
 7. Call validator inside another validator
-8. check dubplicate in list
+8. check dublicate in list
 9. Validate data from Database
 10. Regex 
 11. Email
