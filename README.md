@@ -1,5 +1,5 @@
 # Use of Fluent validation in .net 6.0 web api
-Fluent validation is a open source .Net Library for server side validation. Easy to implement,clean,maintanable. it supports Localization, custom valiations,
+Fluent validation is a open source .Net Library for server side validation. Easy to implement,clean,maintanable. it supports ###Localization, custom validations,
 change data type of field before validating(transforming values)
 ## example added in two validator HotelValidator and Booking Validator
 ## install below packages
