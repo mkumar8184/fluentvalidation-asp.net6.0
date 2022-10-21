@@ -13,6 +13,10 @@
 7. Call validator inside another validator
 8. check dubplicate in list
 9. Validate data from Database
+10. Regex 
+11. Email
+12. Number
+13. valiate field based on another field value
 
 ### more complex validation
 
