@@ -21,7 +21,7 @@ change data type of field before validating(transforming values)**
 13. valiate field based on another field value
 
 ## List of built in validator which can be used. 
-**1. NotEmpty 
+    1. NotEmpty 
     2. NotNull
     3. NotEqual 
     4. Equal 
@@ -42,7 +42,7 @@ change data type of field before validating(transforming values)**
     19. Null 
     20. ExclusiveBetween 
     21. InclusiveBetween
-    22. ScalePrecision -- decimal value** 
+    22. ScalePrecision -- decimal value
 
 [more details can be found](https://docs.fluentvalidation.net/en/latest/built-in-validators.html)
 
