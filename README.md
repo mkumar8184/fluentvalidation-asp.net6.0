@@ -19,6 +19,32 @@ Fluent validation is a open source .Net Library for server side validation. Easy
 12. Number
 13. valiate field based on another field value
 
-### more complex validation
+## List of built in validator which can be used
+1. NotEmpty 
+2. NotNull
+3. NotEqual 
+4. Equal 
+5. Length 
+6. MaxLength 
+7. MinLength 
+8. LessThan
+9. LessThanOrEqualTo
+10. GreaterThan
+11. GreaterThanOrEqualTo
+12. Must
+13. Matches -- regex
+14. EmailAddress
+15. CreditCard
+16. IsInEnum
+17. IsEnumName
+18. Empty 
+19. Null 
+20. ExclusiveBetween 
+21. InclusiveBetween
+22. ScalePrecision -- decimal value 
+
+[more details can be found](https://docs.fluentvalidation.net/en/latest/built-in-validators.html)
+
+
 
 
