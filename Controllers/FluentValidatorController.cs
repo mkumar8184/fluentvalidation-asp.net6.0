@@ -41,5 +41,19 @@ namespace fluentValidatorExample.Controllers
 
             return Ok();
         }
+        [HttpPost]
+        [Route("validate-booking")]
+        public async Task<IActionResult> ValidateBooking(BookingCommand command)
+        {
+            var validationResult = await _bookingValidator.ValidateAsync(command);
+            if (!validationResult.IsValid)
+            {
+                validationResult.AddToModelState(this.ModelState);
+                return Ok(validationResult);
+
+            }
+
+            return Ok();
+        }
     }
 }

@@ -21,8 +21,10 @@ namespace fluentValidatorExample.Validator
            //max length
             RuleFor(x => x.Address).MaximumLength(100).
                 When(x => !string.IsNullOrEmpty(x.Address)).WithMessage("Address max length 100");
-            //minumum and max length
-            RuleFor(x => x.Description).Length(10, 500);
+            //minumum and max length for option field
+            RuleFor(x => x.Description).Length(10, 500)
+           .When(x => !string.IsNullOrEmpty(x.Description));
+           
             //with regex
             RuleFor(x => x.City).NotEmpty()
                 .Matches("^[.a-zA-Z ]+$").WithMessage("City should not contains any numeric value");
@@ -36,8 +38,8 @@ namespace fluentValidatorExample.Validator
             //checkDuplicate from list
             RuleFor(x => x.Features).Must((x,features) => !CheckDuplicate(x))
             .WithMessage("features are duplicates");
+          
            
-
 
 
         }
