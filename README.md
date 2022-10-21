@@ -10,10 +10,10 @@ change data type of field before validating(transforming values)**
 2. Date time compare
 3. Greater than 
 4. Less than
-5. Conditional valiation
+5. Conditional validation
 6. Child Data validation
 7. Call validator inside another validator
-8. check dublicate in list
+8. check duplicate in list
 9. Validate data from Database
 10. Regex 
 11. Email
